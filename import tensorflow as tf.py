@@ -50,6 +50,6 @@ predictions = model.predict(x_test)
 
 plt.imshow(x_test[0], cmap=plt.cm.binary)
 
-plt.title(f"Predicted: {predictions[0].argmax()}")
+plt.title(f" My Predicted: {predictions[0].argmax()}")
 
 plt.show()
